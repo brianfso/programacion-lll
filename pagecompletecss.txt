@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <title>Estructura de una pagina web</title>
+ </head>
+ <body>
+ <header>
+ <h1>Esta es mi pagina web</h1>
+ <nav>
+ <ul>
+ <li>Menu de opciones</li>
+ </ul>
+ </nav>
+ </header>
+ <section>
+ <header>
+ <h2>Contenido principal</h2>
+ </header>
+ <article>
+ <header>
+ <h3>Titulo del Articulo 1</h3>
+<p>Publicado en <time datetime="2021-08-12 15:30">12-agosto-2021</time> por <a href="#">Autor</a> - <a href="#">5 comentarios</a></p>
+ </header>
+ <p> Contenido </p>
+ </article>
+ <article>
+ <header>
+ <h3>Segundo Articulo</h3>
+<p>Publicado en <time datetime="2021-08-05">5-agosto-2021</time> por <a href="#">Autor</a> - <a href="#">10 comentarios</a></p>
+ </header>
+ <p> Contenido </p>
+ </article>
+ </section>
+ <aside>
+ <h4>Seccion acerca de</h4>
+ <p>Acerca de la pagina - <a href="#">Autor</a></p>
+ </aside>
+ <footer>
+ <p>Copyright 2021 - Dise&ntilde;o Web I</p>
+ </footer>
+ </body>
+</html>
